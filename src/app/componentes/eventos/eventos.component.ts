@@ -14,7 +14,15 @@ export class EventosComponent {
   obtenerValorInput($event: any){
     this.valorDelInput = $event.target.value;
   }
+  cambioColor($event: any){
+
+    $event.target.style.color = 'red';
+  }
+  backColor($event: any){
+    $event.target.style.color = 'black';
+  }
 }
+
 
 // Dentro del componente Eventos vamos a colocar un campo de texto
 // ```html

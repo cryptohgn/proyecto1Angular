@@ -7,6 +7,10 @@ import { ContadorComponent } from './componentes/contador/contador.component';
 import { GaleriaComponent } from './componentes/galeria/galeria.component';
 import { ContadorClickComponent } from './componentes/contador-click/contador-click.component';
 import { EventosComponent } from './componentes/eventos/eventos.component';
+import { FormularioComponent } from './componentes/formulario/formulario.component';
+import { FormsModule } from '@angular/forms';
+import { ProfileCardComponent } from './componentes/profile-card/profile-card.component';
+import { CronometroComponent } from './componentes/cronometro/cronometro.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +19,14 @@ import { EventosComponent } from './componentes/eventos/eventos.component';
     ContadorComponent,
     GaleriaComponent,
     ContadorClickComponent,
-    EventosComponent
+    EventosComponent,
+    FormularioComponent,
+    ProfileCardComponent,
+    CronometroComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
